@@ -13,6 +13,11 @@ print(f"list1 = {list1} \t## list.sort()")
 
 list1.reverse()
 print(f"list1 = {list1} \t## list.reverse()")
+
+print(f"sorted(list1) = {sorted(list1)} ## After sorted(list)")
+print(f"list1 = {list1} \t## current value not changed after sorted(list)")
+print(f"list1 = {list1.sort()} \t\t\t\t\t## list.sort() -> returns None")
+print(f"list1 = {list1} \t## current value updated after list.sort()")
 print("-" * 50)
 
 # how list.sort() works when the items are of str type
